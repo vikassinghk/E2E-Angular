@@ -2,9 +2,15 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: 
+          `<header></header>
+            <div class="container mainContent">
+              <router-outlet></router-outlet>
+            </div>
+          <footer></footer>
+        `,
+  styles: []
 })
 export class AppComponent {
-  title = 'app';
+  title = 'E2E-Testing';
 }

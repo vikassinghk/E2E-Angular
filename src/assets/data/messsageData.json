@@ -1,0 +1,20 @@
+[
+  {
+"creationDate": "2018-04-24T06:27:50.101+0000",
+"lastModifiedDate": "2018-04-24T06:27:50.091+0000",
+"id": 1,
+"userId": "Vikas",
+"text": "Java is awesome",
+"summary": "Thought of Java",
+"messageDate": "2018 04 24 11:57:50"
+},
+  {
+"creationDate": "2018-04-24T06:27:50.385+0000",
+"lastModifiedDate": "2018-04-24T06:27:50.385+0000",
+"id": 2,
+"userId": "Mohit",
+"text": "Spring is great",
+"summary": "Thought of Spring",
+"messageDate": "2018 04 24 11:57:50"
+}
+]
