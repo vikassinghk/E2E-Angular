@@ -48,9 +48,10 @@ export class MessageGridComponent implements OnInit {
 
   private createColumnDefs() {
     return [
-      { headerName: "UserId", field: "userId", width: 70 },
-      { headerName: "MessageSummary", field: "summary", width: 70 },
-      { headerName: "MessageDate", field: "messageDate", width: 70 }
+      { headerName: "UserId", field: "userId", width: 70, tooltipField: 'text' },
+      { headerName: "MessageSummary", field: "summary", width: 70, tooltipField: 'text' },
+      { headerName: "MessageDate", field: "messageDate", width: 70, tooltipField: 'text' },
+      { headerName: "MessageText", field: "text", width: 70}
     ]
   }
 
